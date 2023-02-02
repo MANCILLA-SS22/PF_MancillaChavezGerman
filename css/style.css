@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+body, .body-ayuda{
     font-family: 'Viaoda Libre', cursive;
     padding-top: 4.7rem;
     max-width: 100%;
 }
+
 
 nav {
     background: #E4F9F5;
@@ -285,11 +286,20 @@ hr {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
 }
 
 form {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
+}
+
+
+.foot{
+    align-self: flex-end;
+    text-align: center;
 }
 
 /* ###################################################### RESPONSIVE ###################################################### */
