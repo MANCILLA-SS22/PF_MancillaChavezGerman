@@ -28,7 +28,7 @@ p{
 
 .body-habilidades {
     text-align: left;
-    background-image: url(https://www.sibuts.com/wp-content/uploads/2015/06/programming-wallpaper-1920x1080.jpg);
+    background-image: url(/img/programming-wallpaper-1920x1080.jpg);
     background-size: 100vw;
     background-size: 100vh;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ p{
 /* ###################################################### METAS ###################################################### */
 
 .body-metas {
-    background-image: url(https://media.traveler.es/photos/613779b46936668f30c3fa10/16:9/w_2580,c_limit/33288.jpg);
+    background-image: url(/img/33288.webp);
     background-size: 100vw;
     background-size: 100vh;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ p{
 /* ###################################################### INFORMACION ###################################################### */
 
 .body-ayuda {
-    background-image: url(https://img3.goodfon.com/wallpaper/nbig/3/a3/new-york-city---snow-on-a.jpg);
+    background-image: url(/img/new-york-city---snow-on-a.jpg);
     background-size: 100vw;
     background-size: 100vh;
     background-repeat: no-repeat;
