@@ -4,8 +4,8 @@ $ancho:100%;
 $margen:20px;
 
 hr {
-    border: dotted ($punteada/2);
+    border: dotted calc($punteada / 2);
     border-bottom: $borde_sup;
     width: $ancho - 40%;
-    margin: ($margen * 4) +20px auto;
+    margin: ($margen * 4) + 20px auto;
 }
