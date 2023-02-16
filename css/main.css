@@ -1,17 +1,218 @@
 * {
-  Margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 60%;
+  margin: 100px auto;
+}
+
+nav {
+  background-color: #E4F9F5;
+}
+
+#navbarSupportedContent .nav-link p, .intro, .btn, .sect1 p {
+  color: #66BFBF;
+}
+
+.navbar-dark .navbar-toggler {
+  color: transparent;
+}
+
+.fa-facebook {
+  color: #1c1cdc;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+}
+
+.exp {
+  background-color: rgb(216, 203, 187);
+}
+
+.cont1 {
+  background-color: rgb(141, 128, 111);
+}
+
+.cont2 {
+  background-color: rgb(225, 221, 191);
+}
+
+.cont3 {
+  background-color: rgb(76, 131, 122);
+}
+
+hr {
+  color: #adf1f1;
+}
+
+.skills p, .right .info span {
+  color: #fff;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.right .bars {
+  background-color: rgb(23, 2, 2);
+}
+
+.right .bars::before {
+  background-color: crimson;
+}
+
+.tarj1 {
+  background-color: #31384A;
+}
+
+.col a {
+  background-color: black;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container, .container-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2, h1, h3, h4, h5 {
+  color: #66BFBF;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
 .tarjeta:hover, .nav-link p:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   transition-duration: 500ms;
 }
 
 .nav-link p:hover {
   background-color: #4d4c4c;
   color: #ffffff;
+  padding: 5px;
+}
+
+.boton1, .boton2, .boton3 {
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+.boton1.boton1::before, .boton2.boton1::before, .boton3.boton1::before {
+  content: "Leer mas";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateX(270deg);
+  transform-origin: top;
+  transition: all 0.5s;
+}
+.boton1.boton1:hover::before, .boton1:hover:after, .boton2.boton1:hover::before, .boton2:hover:after, .boton3.boton1:hover::before, .boton3:hover:after {
+  transform: rotatex(0);
+}
+.boton1.boton1::after, .boton2.boton1::after, .boton3.boton1::after {
+  content: "Leer mas";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateX(270deg);
+  transform-origin: top;
+  transition: all 0.5s;
+  transition-delay: 0.25s;
+}
+.boton1.boton2:hover, .boton2.boton2:hover, .boton3.boton2:hover {
+  background-color: red;
+}
+.boton1.boton2:before, .boton2.boton2:before, .boton3.boton2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  transform: translatex(-100%) rotate(45deg);
+  transition: all 0.3s;
+}
+.boton1.boton2:hover:before, .boton2.boton2:hover:before, .boton3.boton2:hover:before {
+  transform: translatex(100%) rotate(45deg);
+}
+.boton1.boton3:before, .boton2.boton3:before, .boton3.boton3:before {
+  content: "Leer mas";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.boton1.boton3:after, .boton2.boton3:after, .boton3.boton3:after {
+  content: "Leer mas";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  transform: translate(-100%, 100%);
+}
+.boton1.boton3:hover:before, .boton2.boton3:hover:before, .boton3.boton3:hover:before {
+  transform: translate(100%, -100%);
+}
+.boton1.boton3:hover:after, .boton2.boton3:hover:after, .boton3.boton3:hover:after {
+  transform: translate(0, 0);
 }
 
 /*# sourceMappingURL=main.css.map */
