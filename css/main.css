@@ -11,7 +11,7 @@ hr {
   margin: 100px auto;
 }
 
-.h1-hab, main form h2, main form h1 {
+.h1-hab, main form h2, .h1_index, .h2_index, main h1 {
   color: #61fff3;
 }
 
@@ -87,7 +87,7 @@ form {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* EN ESTE PARTIAL SE MUESTRA EL RESTO DEL CONTENIDO DEL ARCHIVO CSS CREADO PARA LAS ENTREGAS ENTERIORES (style.css) */
+/* EN ESTE PARTIAL SE MUESTRA EL RESTO DEL CONTENIDO DEL ARCHIVO CSS CREADO EN LAS ENTREGAS ANTERIORES (style.css) */
 body, .body-ayuda {
   font-family: "Viaoda Libre", cursive;
   padding-top: 4.7rem;

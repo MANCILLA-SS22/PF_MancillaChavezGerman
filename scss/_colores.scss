@@ -19,7 +19,7 @@ $colores: (
     color_form:rgba(0, 0, 0, 0.4)
 );
 
-.h1-hab, main form h2{
+.h1-hab, main form h2, .h1_index, .h2_index, main h1{
     color: map-get($colores, color_habilidades_info);
 }
 
