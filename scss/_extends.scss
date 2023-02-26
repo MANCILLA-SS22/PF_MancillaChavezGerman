@@ -1,11 +1,10 @@
 h2,h3,h4,h5{
-    color: #1af0f0;
+    color: #088178;
     margin-bottom: 0;
 }
 
 h1 {
     @extend h2,h3,h4,h5;
-    font-family: 'Monsieur La Doulaise', cursive;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 3rem;
-    font-weight: 900;
 }

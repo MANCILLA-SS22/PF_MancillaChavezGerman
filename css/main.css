@@ -11,12 +11,16 @@ hr {
   margin: 100px auto;
 }
 
+.h1-hab, main form h2, main form h1 {
+  color: #61fff3;
+}
+
 nav {
   background-color: #E4F9F5;
 }
 
 #navbarSupportedContent .nav-link p, .intro, .btn, .sect1 p {
-  color: #66BFBF;
+  color: #2a7da2;
 }
 
 .navbar-dark .navbar-toggler {
@@ -40,7 +44,7 @@ nav {
 }
 
 .cont1 {
-  background-color: rgb(141, 128, 111);
+  background-color: rgb(207, 171, 124);
 }
 
 .cont2 {
@@ -48,7 +52,7 @@ nav {
 }
 
 .cont3 {
-  background-color: rgb(76, 131, 122);
+  background-color: rgb(104, 185, 172);
 }
 
 hr {
@@ -266,11 +270,7 @@ p {
   min-height: 100vh;
 }
 
-form {
-  border-radius: 10px;
-}
-
-.foot {
+footer.foot {
   align-self: flex-end;
   text-align: center;
 }
@@ -383,7 +383,7 @@ form {
     max-width: none;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   .container,
   .container-lg,
   .container-md,
@@ -396,6 +396,9 @@ form {
   .sect1 h1 {
     font-size: 3.65rem;
     font-weight: 700;
+  }
+  main form.contactame {
+    width: 100%;
   }
 }
 .container, .container-sm {
@@ -411,14 +414,13 @@ form {
 }
 
 h2, h1, h3, h4, h5 {
-  color: #1af0f0;
+  color: #088178;
   margin-bottom: 0;
 }
 
 h1 {
-  font-family: "Monsieur La Doulaise", cursive;
+  font-family: "Cormorant Garamond", serif;
   font-size: 3rem;
-  font-weight: 900;
 }
 
 .tarjeta:hover, .nav-link p:hover {

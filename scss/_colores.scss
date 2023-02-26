@@ -1,14 +1,15 @@
 $colores: (
     color_nav:#E4F9F5,
-    color_multiple1:#66BFBF,
+    color_multiple1:#2a7da2,
+    color_habilidades_info:#61fff3,
     color_navbar_dark:transparent,
     color_facebook:#1c1cdc,
     color_multiple2:black,
     color_linkedin:#0e76a8,
     color_exp:rgb(226, 162, 84),
-    color_cont1:rgb(141, 128, 111),
+    color_cont1:rgb(207 171 124),
     color_cont2:rgb(225, 221, 191),
-    color_cont3:rgb(76, 131, 122),
+    color_cont3:rgb(104 185 172),
     color_hr:#adf1f1,
     color_multiple3:#fff,
     color_content:rgba(0, 0, 0, 0.4),
@@ -17,6 +18,10 @@ $colores: (
     color_tarj1:#31384A,
     color_form:rgba(0, 0, 0, 0.4)
 );
+
+.h1-hab, main form h2{
+    color: map-get($colores, color_habilidades_info);
+}
 
 nav{
     background-color: map-get($colores, color_nav);
