@@ -394,11 +394,14 @@ footer.foot {
     font-size: 1.2rem;
   }
   .sect1 h1 {
-    font-size: 3.65rem;
-    font-weight: 700;
+    font-size: 2.65rem;
+    font-weight: 500;
   }
   main form.contactame {
     width: 100%;
+  }
+  img.inicioS {
+    height: 50vh !important;
   }
 }
 .container, .container-sm {
